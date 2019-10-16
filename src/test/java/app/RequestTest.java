@@ -42,11 +42,5 @@ public class RequestTest {
                 //.andExpect(content().string(containsString("Hello World")));
     }
 
-    @Test
-    public void requestEntityShouldInstantiateAllNestedObjects() throws Exception {
-        String json = "{\"home\": null,\"rent\":null,\"mortgage\":null,\"date\":null}";
-
-
-    }
 }
 

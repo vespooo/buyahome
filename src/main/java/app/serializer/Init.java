@@ -1,6 +1,6 @@
-package app.dto.serializer;
+package app.serializer;
 
-import app.dto.serializer.initiator.Initiator;
+import app.serializer.initiator.Initiator;
 
 import java.lang.annotation.*;
 

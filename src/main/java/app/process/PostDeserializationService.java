@@ -1,7 +1,6 @@
-package app.service;
+package app.process;
 
 import app.dto.Parameters;
-import org.springframework.stereotype.Service;
 
 
 public interface PostDeserializationService {

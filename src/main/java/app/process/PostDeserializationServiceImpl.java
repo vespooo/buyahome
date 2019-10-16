@@ -1,8 +1,8 @@
-package app.service;
+package app.process;
 
 
 import app.dto.Parameters;
-import app.dto.serializer.InitAnnotationProcessor;
+import app.serializer.InitAnnotationProcessor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
