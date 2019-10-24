@@ -19,8 +19,10 @@ public class CalculationServiceImpl implements CalculationService {
 
     @Override
     public CalculationResult calculate(List<MonthCalculator> calculations, Parameters params) {
+
         MonthCalculationResult monthResult = firstMonthCalculator.calculate(params);
         CalculationResult result = new CalculationResultImpl();
+
         while (monthResult.isCalculationOver()){
             monthResult = service.calculate(calculations, monthResult);
             result.add(monthResult);

@@ -16,7 +16,7 @@ import java.util.List;
 public class CalculationTest {
 
     @Autowired
-    CalculationService service;
+    private CalculationService service;
 
     @Test
     public void testCalculation(){
@@ -24,5 +24,6 @@ public class CalculationTest {
         Parameters params = new Parameters();
 
         service.calculate(list, params);
+        //TODO Assertion
     }
 }
